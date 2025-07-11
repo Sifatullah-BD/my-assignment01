@@ -179,13 +179,54 @@ ul.about-item {
   padding:1px;
 }
 
+
+.focus img{
+  border-radius: 48px;
+     width: 700px;
+     height: 300px;
+     justify-content: center;
+     margin: auto;
+    margin-top: 15px;
+ }
+
+ .focus{ display:flex ;
+  text-align: center;
+  display: block;
+  background-color:#FFFFFF ;
+  width: 1140;
+  margin: 20px;
+  padding: 1px;
+ }
+ 
+ .focus h2{
+   margin-top: 5px;
+   color: #03202c;
+   text-align: center;
+   font-weight: bold;
+   font-size: 50px; 
+   }
 /* Contact section */
 .contact-section{
-  margin: 0 auto;
-  padding: 40px 20px;
+  margin-top: 20px;
+  padding: 140px 150px;
   background-color:#D6DDED ;
-  
+  display: flex;
+
 }
+
+.infobox{
+  display: inline-block;
+  color: #03202c;
+  font-weight: 800;
+  font-size: 50px;
+  width: 480;
+  height: 70px;
+}
+
+#message{
+  height: 150px;
+}
+
 .contact-section h1{
  margin-top: 30px;
  color: #03202c;
@@ -207,32 +248,32 @@ ul.about-item {
   box-sizing: border-box;} 
   
   .contact-section h1{
-      display:flex ;
-    justify-content: baseline;
-    padding-top: 80px;}
+    padding: 50px;}
 
-    .focus img{
-     border-radius: 48px;
-        width: 700px;
-        height: 300px;
-        justify-content: center;
-        margin: auto;
-       margin-top: 15px;
-    }
 
-    .focus{ display:flex ;
-     text-align: center;
-     display: block;
-     background-color:#FFFFFF ;
-     width: 1140;
-     margin: 20px;
-     padding: 1px;
-    }
+.footer{
+  text-align: center;
+  color: #03202c;
+  font-weight: 800;
+  font-size: 5em;
+  
+}
+
+.Subtitle{
+  font-size: 10px;
+  text-align: center;
+  color: #333;
+  font-size: small;
+}
     
-    .focus h2{
-      margin-top: 5px;
-      color: #03202c;
-      text-align: center;
-      font-weight: bold;
-      font-size: 50px;
-      }
+.items{
+ display: flex;
+ gap: 10px;
+ font-size: 10px;
+ justify-content: center;
+ color: #333;
+ font-size: small;
+ list-style-type: none;
+  
+}
+
