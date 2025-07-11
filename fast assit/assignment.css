@@ -1,0 +1,62 @@
+
+.open-sans-typography{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  
+  /* header style */
+
+  .header-bg
+  {
+    background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
+    max-width: 1140;
+  }
+  .nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+    color: #4E47FF;
+    font-size: 20px;
+    font-weight: 800;
+    
+  }
+  .btn-primary{
+  background-color: #4E47FF;
+  font-size: 20px;
+  color:#FFFFFF;
+  border-radius: 5px;
+  padding: 12px 36px;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  }
+
+
+  .baner-content{ 
+    color: #252432;
+    font-weight: 800;
+    text-align: center;
+  }
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-around;
+    margin: 150px 150px;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    gap: 10px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+    font-size: 25px;
+    
+}
+    
+  
