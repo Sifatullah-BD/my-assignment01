@@ -19,8 +19,16 @@
   {
     background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
     /* max-width: 1140; */
+    
     width: 600;
   }
+
+
+  .secondary-bg{
+
+    background-color: #caf0ee83;
+  }
+  
   .nav-content {
     display: flex;
     align-items: center;
